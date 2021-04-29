@@ -1,5 +1,16 @@
 # @keystone-next/fields
 
+## 7.0.1
+
+### Patch Changes
+
+- [#5514](https://github.com/keystonejs/keystone/pull/5514) [`8577eb3ba`](https://github.com/keystonejs/keystone/commit/8577eb3baafe9cd61c48d89aca9eff252765e5a6) Thanks [@timleslie](https://github.com/timleslie)! - The field hooks API has deprecated the `addFieldValidationError` argument. It has been replaced with the argument `addValidationError`, and will be removed in a future release.
+
+- Updated dependencies [[`7e81b52b0`](https://github.com/keystonejs/keystone/commit/7e81b52b0f2240f0c590eb8f6733360cab9fe93a), [`fddeacf79`](https://github.com/keystonejs/keystone/commit/fddeacf79d25fea15be57d1a4ec16815bcdc4ab5), [`05d4883ee`](https://github.com/keystonejs/keystone/commit/05d4883ee19bcfdfcbff7f80693a3fa85cf81aaa), [`a0c5aa307`](https://github.com/keystonejs/keystone/commit/a0c5aa30771d187253d0cfe24b4b686e136136cc), [`9fd7cc62a`](https://github.com/keystonejs/keystone/commit/9fd7cc62a889f8a0f8933040bb16fcc36af7795e), [`74fed41e2`](https://github.com/keystonejs/keystone/commit/74fed41e23c3d5c6c073574c54ca339df2235351)]:
+  - @keystone-next/types@17.0.1
+  - @keystone-next/adapter-prisma-legacy@6.0.1
+  - @keystone-next/admin-ui@14.0.1
+
 ## 7.0.0
 
 ### Major Changes
